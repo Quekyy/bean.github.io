@@ -1,0 +1,40 @@
+.bg {
+    background-color: #e6ddd4;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.qn {
+    text-align: center;
+}
+
+.Pusheen1 {
+    width: 50%;
+    max-width: 300px;
+    padding: 5px;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.yesBtn, .noBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #af9376;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.yesBtn:hover, .noBtn:hover {
+    background-color: #7e6750;
+}
