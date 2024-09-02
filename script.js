@@ -9,7 +9,7 @@ yesBtn.addEventListener("click", function() {
     // Change the gif image to another one
     pusheenGif.src = "./Images/complete.gif";
     // Change the header message
-    document.querySelector("h1").innerText = "YESSSS";
+    document.querySelector("h1").innerText = "OKAY thats a promise.";
     // Hide buttons
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
